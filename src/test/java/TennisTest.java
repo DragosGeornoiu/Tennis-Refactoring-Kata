@@ -88,11 +88,18 @@ public class TennisTest {
                 game.wonPoint("player2");
         }
         assertEquals(this.expectedScore, game.getScore());
+        System.out.println(expectedScore);
     }
 
     @Test
     public void checkAllScoresTennisGame1() {
         TennisGame1 game = new TennisGame1("player1", "player2");
+        checkAllScores(game);
+    }
+
+    @Test
+    public void checkAllScoresTennisGameBilica() {
+        TennisGame game = new TennisGameBilica("player1", "player2");
         checkAllScores(game);
     }
 
