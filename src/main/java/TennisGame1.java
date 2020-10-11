@@ -1,3 +1,5 @@
+import tennis.TennisGame;
+
 public class TennisGame1 implements TennisGame {
 
     //~ ----------------------------------------------------------------------------------------------------------------
